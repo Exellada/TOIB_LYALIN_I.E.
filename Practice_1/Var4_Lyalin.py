@@ -8,7 +8,7 @@ def check_password(password):
     else:
         return False
         
-with open('passwords.txt', 'r') as file:
+with open('paroli.txt', 'r') as file:
     passwords = file.readlines()
     
 for password in passwords:
